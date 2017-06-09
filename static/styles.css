@@ -32,6 +32,14 @@ body {
     font-size: 150%
 }
 
+.buttonWrapper{
+    text-align: center;
+}
+
+.clipboardButton {
+    margin-top: 15px;
+}
+
 footer {
     position: absolute;
     left: 0;
