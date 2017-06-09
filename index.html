@@ -10,7 +10,7 @@
     <meta name="author" content="André S. Hansen" />
 
     <link rel="shortcut icon" href="static/images/search_icon.png">
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="static/styles.css">
 
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 </head>
@@ -21,6 +21,9 @@
         <div id="helpText" class="center">your hosts file is located here:</div>
         <div id="hostFilePath" class="center"></div>
     </section>
+    <div class="buttonWrapper">
+        <button class="clipboardButton" onclick="PromtCopy()">Copy to clipboard</button>
+    </div>
 
     <footer>
         <div id="footer" class="center">
@@ -34,7 +37,7 @@
     </footer>
 
     <!--So its loaded last, after jquery-->
-    <script src="/static/app.js"></script>
+    <script src="static/app.js"></script>
 </body>
 
 </html>
